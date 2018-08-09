@@ -1,24 +1,8 @@
 # README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Voici le lien du site sur heroku <a href="https://crypto-desk.herokuapp.com">https://crypto-desk.herokuapp.com</a>
+## Créateurs : La Fameuse Fine Équipe ##
+Derrière cet énième repository stylé se cache...
+* <a href="https://github.com/AniMoure">Anisoara</a>
+* <a href="https://github.com/TheFSilver">François D.</a>
+* <a href="https://github.com/skageraz">Jeremy Rak</a>
+* <a href="https://github.com/Titouax">Titouan</a>
