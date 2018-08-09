@@ -1,6 +1,17 @@
 class CryptosController < ApplicationController
   before_action :set_crypto, only: [:show, :edit, :update, :destroy]
 
+  def initalize
+
+  end
+
+  def unit
+    p '............'
+    p params
+    p '............'
+    @crypto = Crypto.find_by(name: params[:crypto][:name])
+  end
+
   # GET /cryptos
   # GET /cryptos.json
   def index
@@ -10,6 +21,10 @@ class CryptosController < ApplicationController
   # GET /cryptos/1
   # GET /cryptos/1.json
   def show
+    p '............'
+    p params
+    p '............'
+    @crypto = Crypto.find(params[:id])
   end
 
   # GET /cryptos/new
