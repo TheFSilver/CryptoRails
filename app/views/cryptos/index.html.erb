@@ -3,7 +3,7 @@
 <h1>Cryptos</h1>
 <br>
 <br>
-
+<%= link_to 'Scrapper', scrapper_path
 <%= form_for(:crypto, url: unit_path) do |f| %>
     	<%= f.collection_select :name, Crypto.order(:name), :name, :name, :include_blank => false %>
       <%= f.submit "Afficher", class:"btn btn-sm btn-primary" %>

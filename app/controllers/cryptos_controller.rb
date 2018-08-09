@@ -12,6 +12,16 @@ class CryptosController < ApplicationController
     @crypto = Crypto.find_by(name: params[:crypto][:name])
   end
 
+  def refresh
+    Scrapper.new.update
+    redirect_to root_path
+  end
+
+  def scrap
+    Scrapper.new.perform
+    redirect_to root_path
+  end
+
   # GET /cryptos
   # GET /cryptos.json
   def index

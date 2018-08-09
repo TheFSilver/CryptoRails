@@ -47,6 +47,7 @@ attr_accessor :currency_name, :currency_price
         name: k,
         price: v
       )
+      p 'c :'
       p c
     end
       p '============ + Enregistrement - Fin  + ============'
