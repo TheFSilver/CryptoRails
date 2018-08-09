@@ -1,3 +1,20 @@
 // Place all the styles related to the Pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.stuff {
+  display: table-cell;
+}
+
+.tbody {
+  border: 1px solid #e2e2e2
+}
+
+nav
+{
+  a:hover {
+    background-color: none !important;
+  
+  }
+
+}
